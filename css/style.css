@@ -146,12 +146,6 @@ a:focus {
 	justify-content: center;
 }
 
-.top-bar .top-bar-icon [class^="flaticon-"]::before {
-	margin: 0;
-	color: #030f27;
-	font-size: 40px;
-}
-
 .top-bar .top-bar-text {
 	padding-left: 15px;
 }
@@ -402,11 +396,6 @@ a:focus {
 	}
 }
 
-.carousel .animated {
-	-webkit-animation-duration: 1.5s;
-	animation-duration: 1.5s;
-}
-
 /*******************************/
 /******* Page Header CSS *******/
 /*******************************/
@@ -581,14 +570,6 @@ a:focus {
 	background: #fdbe33;
 }
 
-.feature .feature-icon [class^="flaticon-"]::before {
-	position: relative;
-	margin: 0;
-	color: #fdbe33;
-	font-size: 60px;
-	line-height: 60px;
-	z-index: 3;
-}
 
 .feature .feature-text {
 	padding-left: 30px;
@@ -608,11 +589,6 @@ a:focus {
 	font-weight: 400;
 }
 
-.feature .col-md-12:nth-child(2n) [class^="flaticon-"]::before,
-.feature .col-md-12:nth-child(2n) h3,
-.feature .col-md-12:nth-child(2n) p {
-	color: #030f27;
-}
 
 /*******************************/
 /********** About CSS **********/
@@ -690,18 +666,6 @@ a:focus {
 	justify-content: center;
 }
 
-.fact .fact-icon [class^="flaticon-"]::before {
-	margin: 0;
-	font-size: 60px;
-	line-height: 60px;
-	background-image: linear-gradient(#ffffff, #fdbe33);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-.fact .fact-right .fact-icon [class^="flaticon-"]::before {
-	background-image: linear-gradient(#ffffff, #030f27);
-}
 
 .fact .fact-left,
 .fact .fact-right {
@@ -1485,11 +1449,6 @@ a:focus {
 	border: 1px solid rgba(256, 256, 256, 0.2);
 }
 
-.contact .contact-item [class^="flaticon-"]::before {
-	margin: 0;
-	color: #fdbe33;
-	font-size: 40px;
-}
 
 .contact .contact-text {
 	position: relative;
